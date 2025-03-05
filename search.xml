@@ -4,13 +4,16 @@
     <title>Hexo美化</title>
     <url>/2025/03/03/Hexo%E7%BE%8E%E5%8C%96/</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
         <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
     <title>使用Hexo建站</title>
-    <url>/2025/03/04/%E4%BD%BF%E7%94%A8Hexo%E5%BB%BA%E7%AB%99/</url>
+    <url>/2025/03/03/%E4%BD%BF%E7%94%A8Hexo%E5%BB%BA%E7%AB%99/</url>
     <content><![CDATA[<h3 id="使用架构Hexo-Next来搭建"><a href="#使用架构Hexo-Next来搭建" class="headerlink" title="使用架构Hexo+Next来搭建"></a>使用架构Hexo+Next来搭建</h3><p>Hexo官网: <a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a><br>next_github: <a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></p>
 <h3 id="安装git和nodejs"><a href="#安装git和nodejs" class="headerlink" title="安装git和nodejs"></a>安装git和nodejs</h3><p>由于Hexo是基于Node.js驱动的一款博客框架,所以安装NodeJS并配置环境变量。<br>需要安装    nodejs：<a href="https://nodejs.org/zh-cn">https://nodejs.org/zh-cn</a>      git：<a href="https://git-scm.com/downloads/win">https://git-scm.com/downloads/win</a></p>
 <h4 id="安装之后可以输入以下命令查看是否安装成功"><a href="#安装之后可以输入以下命令查看是否安装成功" class="headerlink" title="安装之后可以输入以下命令查看是否安装成功:"></a>安装之后可以输入以下命令查看是否安装成功:</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git version</span><br><span class="line">node -v</span><br><span class="line">npm -V</span><br></pre></td></tr></table></figure>
@@ -29,6 +32,9 @@
 <h4 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save   # 让hexo可以使用git工具</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d          # 部署到githua</span><br></pre></td></tr></table></figure>
 
 <h4 id="这时用浏览器输入-用户名-github-io-就可以访问刚才的网站啦。"><a href="#这时用浏览器输入-用户名-github-io-就可以访问刚才的网站啦。" class="headerlink" title="这时用浏览器输入 用户名.github.io  就可以访问刚才的网站啦。"></a>这时用浏览器输入 <strong>用户名.github.io</strong>  就可以访问刚才的网站啦。</h4>]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
       <tags>
         <tag>Hexo</tag>
       </tags>
